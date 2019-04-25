@@ -3,6 +3,5 @@
 curl "http://localhost:4741/todos" \
   --include \
   --request GET \
-  --header "Authorization: Token token=${TOKEN}"
 
 echo

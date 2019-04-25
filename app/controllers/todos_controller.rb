@@ -43,7 +43,7 @@ class TodosController < OpenReadController
   private
     # Use callbacks to share common setup or constraints between actions.
     def set_todo
-      @todo = current_user.find(params[:id])
+      @todo = current_user.todos.find(params[:id])
     end
 
     # Only allow a trusted parameter "white list" through.
