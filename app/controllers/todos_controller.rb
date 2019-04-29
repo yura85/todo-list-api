@@ -1,9 +1,9 @@
-class TodosController < OpenReadController
+class TodosController < ProtectedController
   before_action :set_todo, only: [:update, :destroy]
 
   # GET /todos
   def index
-    @todos = Todo.all
+    @todos = current_user.todos.all
 
     render json: @todos
   end
