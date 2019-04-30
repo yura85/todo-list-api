@@ -1,18 +1,18 @@
-https://infinite-journey-53974.herokuapp.com/  heroku link
+<https://infinite-journey-53974.herokuapp.com/>  heroku link
 
-https://yura85.github.io/todo-list-frontend/ github frontend
+<https://yura85.github.io/todo-list-frontend/> github frontend
 
-https://yura85.github.io/todo-list-api/ github api
+<https://yura85.github.io/todo-list-api/> github api
 
-Tpdo List Application( API )
+### Tpdo List Application( API )
 
-About this Application
+## About this Application
 
-This is a simple bucket list application that lets users create, view, update and delete
+This is a simple  Todolist application that lets users create, view, update and delete
 
-their bucketlist items.
+their todolist items.
 
-API Endpoints
+## API Endpoints
 
 Verb	URI	Controller#Action
 
@@ -36,19 +36,29 @@ PATCH	/todos/:id	todos#update
 
 All data returned from API actions is formatted as JSON.
 
-ERD https://imgur.com/0NuZ9zh
+## ERD
 
-Technologies Used
+ERD <https://imgur.com/0NuZ9zh>
 
-JavaScript
+## Technologies Used
 
-Rails
+- JavaScript
 
-List of Problems to be Solved in the Future
+- Rails
 
-Connect to third party APIs (e.g. Google Maps).
+- JSON
 
-Planning, Process and Problem-solving Strategy
+- AJAX
+
+## List of Problems to be Solved in the Future
+
+- Connect to third party APIs (e.g. Google Maps)
+
+- Better css styling
+
+- Adding a new "todo_items" table and conect it to User and Todo tables
+
+##  Planning, Process and Problem-solving Strategy
 
 In the beginning of my project planning i considered a number of options for my
 
