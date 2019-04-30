@@ -1,6 +1,6 @@
 #!/bin/bash
 
-curl "http://localhost:4741/todos" \
+curl "https://arcane-cove-18618.herokuapp.com/todos" \
   --include \
   --request POST \
   --header "Content-Type: application/json" \
